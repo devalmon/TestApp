@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A76A496235C59CE007FA51B /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76A495235C59CE007FA51B /* CollectionViewController.m */; };
+		8A76A499235C65B0007FA51B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76A498235C65B0007FA51B /* TableViewController.m */; };
+		8A76A49C235C7437007FA51B /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76A49B235C7437007FA51B /* Image.m */; };
+		8A76A49F235CB80D007FA51B /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76A49E235CB80D007FA51B /* ScrollView.m */; };
 		8AEE12782355EF3D006024CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE12772355EF3D006024CB /* AppDelegate.m */; };
 		8AEE127B2355EF3D006024CB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE127A2355EF3D006024CB /* SceneDelegate.m */; };
 		8AEE127E2355EF3D006024CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE127D2355EF3D006024CB /* ViewController.m */; };
@@ -17,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A76A494235C59CE007FA51B /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		8A76A495235C59CE007FA51B /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		8A76A497235C65B0007FA51B /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8A76A498235C65B0007FA51B /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		8A76A49A235C7437007FA51B /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		8A76A49B235C7437007FA51B /* Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		8A76A49D235CB80D007FA51B /* ScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		8A76A49E235CB80D007FA51B /* ScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
 		8AEE12732355EF3D006024CB /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEE12762355EF3D006024CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AEE12772355EF3D006024CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +79,14 @@
 				8AEE127A2355EF3D006024CB /* SceneDelegate.m */,
 				8AEE127C2355EF3D006024CB /* ViewController.h */,
 				8AEE127D2355EF3D006024CB /* ViewController.m */,
+				8A76A494235C59CE007FA51B /* CollectionViewController.h */,
+				8A76A495235C59CE007FA51B /* CollectionViewController.m */,
+				8A76A497235C65B0007FA51B /* TableViewController.h */,
+				8A76A498235C65B0007FA51B /* TableViewController.m */,
+				8A76A49D235CB80D007FA51B /* ScrollView.h */,
+				8A76A49E235CB80D007FA51B /* ScrollView.m */,
+				8A76A49A235C7437007FA51B /* Image.h */,
+				8A76A49B235C7437007FA51B /* Image.m */,
 				8AEE127F2355EF3D006024CB /* Main.storyboard */,
 				8AEE12822355EF43006024CB /* Assets.xcassets */,
 				8AEE12842355EF43006024CB /* LaunchScreen.storyboard */,
@@ -147,9 +167,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AEE127E2355EF3D006024CB /* ViewController.m in Sources */,
+				8A76A49F235CB80D007FA51B /* ScrollView.m in Sources */,
+				8A76A499235C65B0007FA51B /* TableViewController.m in Sources */,
 				8AEE12782355EF3D006024CB /* AppDelegate.m in Sources */,
 				8AEE12892355EF43006024CB /* main.m in Sources */,
+				8A76A496235C59CE007FA51B /* CollectionViewController.m in Sources */,
 				8AEE127B2355EF3D006024CB /* SceneDelegate.m in Sources */,
+				8A76A49C235C7437007FA51B /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

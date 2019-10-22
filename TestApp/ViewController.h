@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewController.h"
+#import "ScrollView.h"
+#import "CollectionViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UITabBarController
 
 
 @end
